@@ -45,8 +45,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var resta = (y - x)
-
+  var resta = (x - y)
   return resta;
   
 }
@@ -83,11 +82,12 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (str1.lenght === str2.lenght){
+    if(str1.lenght
+       === str2.lenght){
       return true; 
-    } else {
+    } 
     return false; 
-  }
+  
 }
 
 function menosQueNoventa(num) {
@@ -194,9 +194,7 @@ function esPositivo(numero) {
   else if (numero === 0) {
     return false
   }
-  else { 
     return "es negativo"
-  }
    
 }
 
@@ -215,7 +213,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var nombrecompleto = (nombre+""+apellido);
+  var nombrecompleto = (nombre + "" + apellido );
   return nombrecompleto;
 }
 
@@ -268,15 +266,15 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
-  //Escribe tu código aquí
-  if(letra.lenght> 1){ 
-    return "dato es incorrecto"
-  }      
-  if(letra === "a","e","i","o","u") {
-    return "es vocal"
+  //Escribe tu código aquí     
+  if (letra === "a","e","i","o","u") {
+    return "Es vocal"
   }
-  return "dato es incorrecto"             
- 
+  return "dato es incorrecto"  }
+     { 
+  ifelse (letra.lenght> 1)
+    return "dato es incorrecto"         
+  
  
 }
 
