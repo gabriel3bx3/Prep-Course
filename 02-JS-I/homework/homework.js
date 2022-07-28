@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return (str)
+  return (str);
   
 }
 
@@ -179,7 +179,7 @@ return Math.ceil(num);
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-return Math.random()
+return Math.random();
   
 }
 
@@ -192,9 +192,9 @@ function esPositivo(numero) {
     return true;
   }
   else if (numero === 0) {
-    return false
+    return false;
   }
-    return "es negativo"
+    return "es negativo";
    
 }
 
@@ -268,12 +268,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí     
   if (letra === "a","e","i","o","u") {
-    return "Es vocal"
+    return "Es vocal";
   }
-  return "dato es incorrecto"  }
+  return "dato es incorrecto";  }
      { 
-  ifelse (letra.lenght> 1)
-    return "dato es incorrecto"         
+  ifelse (letra.lenght> 1);
+    return "dato es incorrecto";         
   
  
 }
