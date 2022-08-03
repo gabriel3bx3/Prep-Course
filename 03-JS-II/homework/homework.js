@@ -151,7 +151,7 @@ function operadoresLogicos(num1, num2, num3) {
     return "Hay negativos";
    } 
    else if (num3> num1 && num3 >num2 ){ 
-   return num3;  
+   return num3++;  
   }
    else if (num1=== 0 || num2 ===0 || num3 ===0){
     return "error";
@@ -180,7 +180,7 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if (valor = true ){
+  if (valor === true ){
     return "soy verdadero";
   }
   if (valor = false){
@@ -213,8 +213,16 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var a= numero;
+  var i=0;
+  do { 
+  a = a + 5;
+  i = i+1;
+  }
+  while (i<8);
+  return a;
+  
 }
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
